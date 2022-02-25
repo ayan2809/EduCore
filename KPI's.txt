@@ -1,0 +1,23 @@
+Educational Topic - like different parts of a plant - EVS I standard
+
+Tutorial Webpage 
+using 
+Important HTML Tags
+1. Media Tags
+2. Image Map
+3. Other html tags
+
+Important CSS Tags
+1. attribute selectors
+2. pseudo class selectors
+3. all types of simple selectors
+4. Provide Cascading style specifications for the web page
+
+Other important points
+Use images which are copyright free
+Make it responsive
+
+CSr@0124OCTO
+
+video, audio, text, image
+css- 3ways-inheritance-animation-specificity-cascading - simple selectors(class, element,id)

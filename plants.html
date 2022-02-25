@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants</title>
+
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script>
+        function courseFunction(check, txt) {
+            var checkBox = document.getElementById(check);
+            var text = document.getElementById(txt);
+            if (checkBox.checked == true) {
+                text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="active">Plants</a></li>
+            <li><a href="./animals.html">Animals</a></li>
+            <li><a href="./partsOfTheBody.html">Human Body</a></li>
+            <li><a href="./meansOfTransport.html">Transport</a></li>
+            <li><a href="./earth.html">Communication</a></li>
+        </ul>
+    </div>
+    <div id="introduction">
+        <h3>Learn about your environment the easy way!!!</h3>
+        <p>Plants are important part of nature. They can live on land and in water. Plants are very useful to us and we
+            get many things from plant such as food, wood, paper etc. Most of our food that we eat comes from plants for
+            example -fruits, vegetables, cereals, pulses etc. We eat roots, leaves, stems, flowers and fruits of plants.
+        </p>
+    </div>
+    <div class="parent">
+        <img src="./images/plant.png" usemap="#image-map">
+        <map name="image-map" style="align-items: center;">
+            <area target="" alt="fruit" title="fruit" href="#fruit"
+                coords="319,91,304,94,300,106,305,115,316,117,324,117,335,114,339,108,341,98,338,90,329,89,310,88"
+                shape="poly">
+            <area target="" alt="seeds" title="seeds" href="#seeds"
+                coords="358,226,364,230,365,235,365,242,365,247,344,250,332,249,336,240,336,231,334,225" shape="poly">
+            <area target="" alt="roots" title="roots" href="#roots"
+                coords="263,300,238,311,230,321,220,327,232,331,236,335,248,333,255,331,267,322,277,324,281,334,296,338,307,332,325,329,323,320,352,313,354,321,360,326,344,330,328,314,296,315"
+                shape="poly">
+            <area target="" alt="stem" title="stem" href="#stem"
+                coords="259,286,261,262,260,234,260,198,260,165,254,119,258,100,264,120,264,136,265,186,265,212,265,230,268,250,272,266,272,282,272,289,272,294,256,297"
+                shape="poly">
+            <area target="" alt="flower" title="flower" href="#flower"
+                coords="212,97,207,102,201,105,200,112,202,118,208,123,220,118,227,117,225,104,223,96" shape="poly">
+            <area target="" alt="leaves" title="leaves" href="#leaf"
+                coords="250,70,240,51,238,37,238,23,251,29,259,41,261,50,261,62,261,70,263,30,270,17,283,19,295,22,295,34,290,47,290,53,303,34,315,30,335,26,323,54,289,64,284,74"
+                shape="poly">
+        </map>
+    </div>
+
+    <div class="post-container">
+        <div class="post-thumb"><img src="./images/roots.png" /></div>
+        <div id="roots" class="rootstyle">
+            <h3 style="text-align: center;">Roots</h3>
+
+            <p>Plants are important part of nature. They can live on land and in water. Plants are very useful to us and
+                we get many things from plant such as food, wood, paper etc. Most of our food that we eat comes from
+                plants for example -fruits, vegetables, cereals, pulses etc. We
+                eat roots, leaves, stems, flowers and fruits of plants.
+                <br>
+                <label for="myCheck2"><b>Check the box for reference video: </b></label>
+                <input type="checkbox" id="myCheck2" onclick="courseFunction('myCheck2','text2')">
+
+
+            </p>
+            <p id="text2" style="display:none; "><iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/xiZk_0G8GSU" title="YouTube video player" frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></p>
+
+
+        </div>
+
+    </div>
+    <div class="post-container">
+        <div class="post-thumb-2"><img src="./images/seed.png" /></div>
+        <div id="seeds" class="seedstyle">
+            <h3 style="text-align: center;">Seeds</h3>
+            <p>Plants are important part of nature. They can live on land and in water. Plants are very useful to us and
+                we
+                get many things from plant such as food, wood, paper etc. Most of our food that we eat comes from plants
+                for
+                example -fruits, vegetables, cereals, pulses etc. We eat roots, leaves, stems, flowers and fruits of
+                plants.
+                <br>
+                <label for="myCheck2"><b>Check the box for reference video: </b></label>
+                <input type="checkbox" id="myCheck3" onclick="courseFunction('myCheck3','text3')">
+            </p>
+            <p id="text3" style="display:none; "><iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/tkFPyue5X3Q" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></p>
+        </div>
+    </div>
+    <div class="post-container">
+        <div class="post-thumb"><img src="./images/stem.png" /></div>
+        <div id="stem" class="rootstyle">
+            <h3 style="text-align: center;">Stem</h3>
+
+            <p>Plants are important part of nature. They can live on land and in water. Plants are very useful to us and
+                we get many things from plant such as food, wood, paper etc. Most of our food that we eat comes from
+                plants for example -fruits, vegetables, cereals, pulses etc. We
+                eat roots, leaves, stems, flowers and fruits of plants.
+                <br>
+                <label for="myCheck4"><b>Check the box for reference video: </b></label>
+                <input type="checkbox" id="myCheck4" onclick="courseFunction('myCheck4','text4')">
+
+
+            </p>
+            <p id="text4" style="display:none; "><iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/fH5iLx_jCUk" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></p>
+
+
+        </div>
+
+    </div>
+    <div class="post-container">
+        <div class="post-thumb-2"><img src="./images/leaf.png" /></div>
+        <div id="leaf" class="seedstyle">
+            <h3 style="text-align: center;">Leaf</h3>
+            <p>Plants are important part of nature. They can live on land and in water. Plants are very useful to us and
+                we
+                get many things from plant such as food, wood, paper etc. Most of our food that we eat comes from plants
+                for
+                example -fruits, vegetables, cereals, pulses etc. We eat roots, leaves, stems, flowers and fruits of
+                plants.
+                <br>
+                <label for="myCheck5"><b>Check the box for reference video: </b></label>
+                <input type="checkbox" id="myCheck5" onclick="courseFunction('myCheck5','text5')">
+            </p>
+            <p id="text5" style="display:none; "><iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/swLVNljDS64" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></p>
+        </div>
+    </div>
+    <div class="post-container">
+        <div class="post-thumb"><img src="./images/flower.png" /></div>
+        <div id="flower" class="rootstyle">
+            <h3 style="text-align: center;">Flower</h3>
+
+            <p>Plants are important part of nature. They can live on land and in water. Plants are very useful to us and
+                we get many things from plant such as food, wood, paper etc. Most of our food that we eat comes from
+                plants for example -fruits, vegetables, cereals, pulses etc. We
+                eat roots, leaves, stems, flowers and fruits of plants.
+                <br>
+                <label for="myCheck6"><b>Check the box for reference video: </b></label>
+                <input type="checkbox" id="myCheck6" onclick="courseFunction('myCheck6','text6')">
+
+
+            </p>
+            <p id="text6" style="display:none; "><iframe width="560" height="315" src="https://www.youtube.com/embed/R9sn7HZM7uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+        </div>
+
+    </div>
+    <div class="post-container">
+        <div class="post-thumb-2"><img src="./images/fruit.png" /></div>
+        <div id="leaf" class="seedstyle">
+            <h3 style="text-align: center;">Fruit</h3>
+            <p>Plants are important part of nature. They can live on land and in water. Plants are very useful to us and
+                we
+                get many things from plant such as food, wood, paper etc. Most of our food that we eat comes from plants
+                for
+                example -fruits, vegetables, cereals, pulses etc. We eat roots, leaves, stems, flowers and fruits of
+                plants.
+                <br>
+                <label for="myCheck7"><b>Check the box for reference video: </b></label>
+                <input type="checkbox" id="myCheck7" onclick="courseFunction('myCheck7','text7')">
+            </p>
+            <p id="text7" style="display:none; "><iframe width="560" height="315" src="https://www.youtube.com/embed/-8zzapx0ssk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- https://educationwithfun.com/course/view.php?id=9 -->
